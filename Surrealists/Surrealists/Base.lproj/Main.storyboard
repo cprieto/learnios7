@@ -92,11 +92,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RemediosVaro2" translatesAutoresizingMaskIntoConstraints="NO" id="ie1-Ui-Ii2">
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemediosVaro2" translatesAutoresizingMaskIntoConstraints="NO" id="ie1-Ui-Ii2">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNo-Zv-dSD">
+                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNo-Zv-dSD">
                                 <rect key="frame" x="49" y="68" width="251" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
@@ -115,6 +115,16 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cNo-Zv-dSD" firstAttribute="top" secondItem="Vmj-XP-EIT" secondAttribute="bottom" constant="4" id="2Lh-Rr-W05"/>
+                            <constraint firstAttribute="bottom" secondItem="ie1-Ui-Ii2" secondAttribute="bottom" id="8Vd-BH-Moz"/>
+                            <constraint firstItem="ie1-Ui-Ii2" firstAttribute="top" secondItem="MyQ-nP-LcE" secondAttribute="top" id="PTa-lM-onE"/>
+                            <constraint firstItem="ie1-Ui-Ii2" firstAttribute="leading" secondItem="MyQ-nP-LcE" secondAttribute="leading" id="UeN-zl-rfP"/>
+                            <constraint firstItem="cNo-Zv-dSD" firstAttribute="leading" secondItem="MyQ-nP-LcE" secondAttribute="leading" constant="49" id="eTa-iz-Ye7"/>
+                            <constraint firstAttribute="trailing" secondItem="ie1-Ui-Ii2" secondAttribute="trailing" id="k91-uj-Psl"/>
+                            <constraint firstItem="KUh-h1-Ly8" firstAttribute="top" secondItem="cNo-Zv-dSD" secondAttribute="bottom" constant="302" id="m6Q-eZ-Dz2"/>
+                            <constraint firstAttribute="trailing" secondItem="cNo-Zv-dSD" secondAttribute="trailing" constant="20" symbolic="YES" id="qeb-vB-VqL"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Remedios Vero" id="Ffq-A5-2ZK"/>
                 </viewController>
@@ -134,14 +144,17 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KaySage2" translatesAutoresizingMaskIntoConstraints="NO" id="tRA-rV-Jte">
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KaySage2" translatesAutoresizingMaskIntoConstraints="NO" id="tRA-rV-Jte">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwn-0K-EbM">
+                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwn-0K-EbM">
                                 <rect key="frame" x="20" y="183" width="189" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="189" id="d8V-ck-Po1"/>
+                                </constraints>
                                 <mutableString key="text">(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
 
 Kay's home became Rapallo, Itally, but she spent much time exploring Europe, including Paris, with her mother. She was fluent in English, Italian, and French. She returned to the states at the beginning of World War I, attending schools in Virginia and Washington, D.C. After the war, her and her mother returned to Rome where she continued her studies.
@@ -163,6 +176,15 @@ At the outbreak of World War II, Sage returned again to New York, where she used
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rwn-0K-EbM" secondAttribute="bottom" constant="20" symbolic="YES" id="9IJ-Eu-T9N"/>
+                            <constraint firstItem="tRA-rV-Jte" firstAttribute="leading" secondItem="QOR-OE-FSG" secondAttribute="leading" id="9fl-gT-Fcj"/>
+                            <constraint firstItem="tRA-rV-Jte" firstAttribute="top" secondItem="QOR-OE-FSG" secondAttribute="top" id="QAu-op-Qkb"/>
+                            <constraint firstItem="rwn-0K-EbM" firstAttribute="leading" secondItem="QOR-OE-FSG" secondAttribute="leading" constant="20" symbolic="YES" id="S0p-R3-ZkF"/>
+                            <constraint firstItem="rwn-0K-EbM" firstAttribute="top" secondItem="4c3-KL-eTW" secondAttribute="bottom" constant="119" id="eCC-qQ-G90"/>
+                            <constraint firstAttribute="trailing" secondItem="tRA-rV-Jte" secondAttribute="trailing" id="rGm-Uo-DKk"/>
+                            <constraint firstAttribute="bottom" secondItem="tRA-rV-Jte" secondAttribute="bottom" id="uVx-l8-skc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Kay Sage" id="IsV-i9-IiT"/>
                 </viewController>
@@ -182,12 +204,12 @@ At the outbreak of World War II, Sage returned again to New York, where she used
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FridaKahlo2" translatesAutoresizingMaskIntoConstraints="NO" id="2F4-rf-J62">
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FridaKahlo2" translatesAutoresizingMaskIntoConstraints="NO" id="2F4-rf-J62">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Moa-fl-7VU">
-                                <rect key="frame" x="50" y="66" width="228" height="314"/>
+                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Moa-fl-7VU">
+                                <rect key="frame" x="46" y="66" width="228" height="314"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">(1907-1954) Born Magdalena Carmen Frieda Kahlo y Caldrón, Frida Kahlo lived almost her entire life in the La Casa Azul (The Blue House), in what was then the outskirts of Mexico City. Her father, Guillermo Kahlo (born Carl Wilhelm Kahlo), was a German immigrant, and photographer by trade. Her mother, Matilde Calderón y Gonzalez, was of Amerindian (an indigenous South American people) and Spanish ancestry. Guillermo married Matilde after the death of his first wife, and they had four daughters, Frida being the third.
@@ -207,6 +229,16 @@ Kahlo embraced indigenous Mexican culture, often combining elements of religious
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2F4-rf-J62" firstAttribute="top" secondItem="kHc-BZ-JZc" secondAttribute="top" id="4bR-3c-Sh3"/>
+                            <constraint firstItem="e5R-or-Wxf" firstAttribute="top" secondItem="Moa-fl-7VU" secondAttribute="bottom" constant="188" id="7RE-gM-dkW"/>
+                            <constraint firstItem="Moa-fl-7VU" firstAttribute="top" secondItem="sV8-B0-Y5g" secondAttribute="bottom" constant="2" id="RDb-j6-EVi"/>
+                            <constraint firstAttribute="trailing" secondItem="2F4-rf-J62" secondAttribute="trailing" id="dS9-W5-Mon"/>
+                            <constraint firstItem="2F4-rf-J62" firstAttribute="leading" secondItem="kHc-BZ-JZc" secondAttribute="leading" id="gsS-ge-XEN"/>
+                            <constraint firstItem="Moa-fl-7VU" firstAttribute="leading" secondItem="kHc-BZ-JZc" secondAttribute="leading" constant="46" id="hcc-aG-qfn"/>
+                            <constraint firstItem="Moa-fl-7VU" firstAttribute="centerX" secondItem="2F4-rf-J62" secondAttribute="centerX" id="rc2-6Z-CKY"/>
+                            <constraint firstAttribute="bottom" secondItem="2F4-rf-J62" secondAttribute="bottom" id="zxS-aG-tGI"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Frida Kahlo" id="m5V-ms-iRd"/>
                 </viewController>
@@ -226,11 +258,11 @@ Kahlo embraced indigenous Mexican culture, often combining elements of religious
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LeonoraCarrington2" translatesAutoresizingMaskIntoConstraints="NO" id="5lV-xF-4XH">
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LeonoraCarrington2" translatesAutoresizingMaskIntoConstraints="NO" id="5lV-xF-4XH">
                                 <rect key="frame" x="0.0" y="-5" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0n-7Z-ebf">
+                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0n-7Z-ebf">
                                 <rect key="frame" x="60" y="87" width="240" height="187"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
@@ -253,6 +285,16 @@ Leonora had a fascination for horses, which she incorporated in both her artwork
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5lV-xF-4XH" secondAttribute="trailing" id="22Z-Mf-prD"/>
+                            <constraint firstItem="Nq1-VF-LD0" firstAttribute="top" secondItem="5lV-xF-4XH" secondAttribute="bottom" constant="5" id="Bgv-g7-yKM"/>
+                            <constraint firstItem="5lV-xF-4XH" firstAttribute="top" secondItem="teT-RB-NJp" secondAttribute="top" constant="-5" id="DOp-kP-2eI"/>
+                            <constraint firstAttribute="trailing" secondItem="E0n-7Z-ebf" secondAttribute="trailing" constant="20" symbolic="YES" id="NHH-6d-EIa"/>
+                            <constraint firstItem="Nq1-VF-LD0" firstAttribute="top" secondItem="E0n-7Z-ebf" secondAttribute="bottom" constant="294" id="OiR-kp-c1A"/>
+                            <constraint firstItem="E0n-7Z-ebf" firstAttribute="leading" secondItem="teT-RB-NJp" secondAttribute="leading" constant="60" id="PQM-re-H88"/>
+                            <constraint firstItem="E0n-7Z-ebf" firstAttribute="top" secondItem="JNp-CW-IWd" secondAttribute="bottom" constant="23" id="sjj-ro-hZB"/>
+                            <constraint firstItem="5lV-xF-4XH" firstAttribute="leading" secondItem="teT-RB-NJp" secondAttribute="leading" id="zfn-cU-y7q"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Leonora Carrington" id="K0S-hJ-nP5"/>
                 </viewController>
