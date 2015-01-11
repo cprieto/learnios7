@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller - Woman Surrealists-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -29,6 +29,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="b9f-g5-RCU" kind="push" id="crS-bt-7vr"/>
+                                </connections>
                             </button>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ss9-Sw-YpH">
                                 <rect key="frame" x="0.0" y="303" width="160" height="265"/>
@@ -60,16 +63,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XEY-1a-W0Z"/>
+                    <navigationItem key="navigationItem" title="Woman Surrealists" id="XEY-1a-W0Z">
+                        <barButtonItem key="backBarButtonItem" title="Surrealists" id="Qei-A2-sOr"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1130" y="222"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Remedios Varo-->
         <scene sceneID="Cce-65-UfS">
             <objects>
-                <viewController id="b9f-g5-RCU" sceneMemberID="viewController">
+                <viewController title="Remedios Varo" id="b9f-g5-RCU" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vmj-XP-EIT"/>
                         <viewControllerLayoutGuide type="bottom" id="KUh-h1-Ly8"/>
@@ -83,7 +88,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNo-Zv-dSD">
-                                <rect key="frame" x="20" y="20" width="280" height="431"/>
+                                <rect key="frame" x="20" y="68" width="280" height="431"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">(1908-1963) Born in Girona, Spain, Remedios Varo Uranga studies art in Madrid before seeking refuge in Paris during the Spanish Civil War. She married the French surrealist poet Benjamin Péret and joined the art group Logicophobiste.
@@ -102,10 +107,11 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Ffq-A5-2ZK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvm-1p-Iov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1684" y="222"/>
+            <point key="canvasLocation" x="1734" y="5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zoV-LZ-aKh">
