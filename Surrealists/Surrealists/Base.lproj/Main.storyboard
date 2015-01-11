@@ -270,7 +270,7 @@ Kahlo embraced indigenous Mexican culture, often combining elements of religious
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LeonoraCarrington2" translatesAutoresizingMaskIntoConstraints="NO" id="5lV-xF-4XH">
-                                <rect key="frame" x="0.0" y="-5" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="-5" width="320" height="573"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0n-7Z-ebf">
@@ -297,14 +297,14 @@ Leonora had a fascination for horses, which she incorporated in both her artwork
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="5lV-xF-4XH" secondAttribute="trailing" id="22Z-Mf-prD"/>
-                            <constraint firstItem="Nq1-VF-LD0" firstAttribute="top" secondItem="5lV-xF-4XH" secondAttribute="bottom" constant="5" id="Bgv-g7-yKM"/>
-                            <constraint firstItem="5lV-xF-4XH" firstAttribute="top" secondItem="teT-RB-NJp" secondAttribute="top" constant="-5" id="DOp-kP-2eI"/>
-                            <constraint firstAttribute="trailing" secondItem="E0n-7Z-ebf" secondAttribute="trailing" constant="20" symbolic="YES" id="NHH-6d-EIa"/>
-                            <constraint firstItem="Nq1-VF-LD0" firstAttribute="top" secondItem="E0n-7Z-ebf" secondAttribute="bottom" constant="294" id="OiR-kp-c1A"/>
-                            <constraint firstItem="E0n-7Z-ebf" firstAttribute="leading" secondItem="teT-RB-NJp" secondAttribute="leading" constant="60" id="PQM-re-H88"/>
-                            <constraint firstItem="E0n-7Z-ebf" firstAttribute="top" secondItem="JNp-CW-IWd" secondAttribute="bottom" constant="23" id="sjj-ro-hZB"/>
-                            <constraint firstItem="5lV-xF-4XH" firstAttribute="leading" secondItem="teT-RB-NJp" secondAttribute="leading" id="zfn-cU-y7q"/>
+                            <constraint firstAttribute="trailing" secondItem="5lV-xF-4XH" secondAttribute="trailing" id="6j5-4W-6sl"/>
+                            <constraint firstItem="E0n-7Z-ebf" firstAttribute="top" secondItem="JNp-CW-IWd" secondAttribute="bottom" constant="23" id="8cB-sd-AHB"/>
+                            <constraint firstItem="5lV-xF-4XH" firstAttribute="leading" secondItem="teT-RB-NJp" secondAttribute="leading" id="DJM-kM-fic"/>
+                            <constraint firstItem="5lV-xF-4XH" firstAttribute="top" secondItem="teT-RB-NJp" secondAttribute="top" constant="-5" id="Hgp-eE-u10"/>
+                            <constraint firstAttribute="bottom" secondItem="5lV-xF-4XH" secondAttribute="bottom" id="TJX-Va-S2r"/>
+                            <constraint firstItem="Nq1-VF-LD0" firstAttribute="top" secondItem="E0n-7Z-ebf" secondAttribute="bottom" constant="294" id="gky-6i-SLW"/>
+                            <constraint firstAttribute="trailing" secondItem="E0n-7Z-ebf" secondAttribute="trailing" constant="20" symbolic="YES" id="ok5-Uz-pia"/>
+                            <constraint firstItem="E0n-7Z-ebf" firstAttribute="leading" secondItem="teT-RB-NJp" secondAttribute="leading" constant="60" id="vsG-HW-UW6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Leonora Carrington" id="K0S-hJ-nP5"/>
